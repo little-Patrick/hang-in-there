@@ -9,7 +9,7 @@
 }
 
 body {
-  background: ghostwhite;
+  background: lightgrey;
 }
 
 button,
@@ -30,7 +30,7 @@ button:hover {
 }
 
 .hidden {
-  display: none!important;
+  display: none !important;
 }
 
 /* ~~~~~ MAIN POSTER SECTION ~~~~~ */
@@ -125,7 +125,7 @@ button:hover {
 }
 
 .mini-poster img {
-  height:200px;
+  height: 200px;
   width: 300px;
 }
 
@@ -143,4 +143,43 @@ button:hover {
   letter-spacing: 5px;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+
+/* === UNMOTIVATIONAL POSTERS SECTION === */
+.unmotivational-posters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.unmotivational-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.unmotivational-grid > .mini-poster {
+	displey: flex;
+	background-color: grey;
+  width: 25%;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 10px;
+}
+
+.unmotivational-grid > .mini-poster h2 {
+  color: black;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.unmotivational-grid > .mini-poster img {
+  border: none;
+	height: 75%;
+  width: 80%;
+}
+
+.unmotivational-grid > .mini-poster h4 {
+  color: white;
 }

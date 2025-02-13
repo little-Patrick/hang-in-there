@@ -13,7 +13,8 @@ The steps are as followed:
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off. gifs preferred!)
-It took a some playing around with the flexbot to get the images to squish down like the frame was.
+It took a some playing around with the flexbot to get the images to squish down like the frame was.![Picture](https://github.com/user-attachments/assets/680fc84f-7c20-4ff6-b851-6f5e6d668530)
+
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
